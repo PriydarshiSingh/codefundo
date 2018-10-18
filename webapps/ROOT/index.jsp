@@ -82,8 +82,8 @@
 		<option value="7">Wildfire</option>
 		<option value="8">Avalanche</option>
 	</select>
-	</div>
 	</form>
+	</div>
 	<hr>
 	<%
 		String dis = request.getParameter("disaster");
