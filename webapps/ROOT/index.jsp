@@ -71,7 +71,7 @@
 	</head>
 	<div align="center">
 	<form action="index.jsp">
-	<select name="disaster" class="select">
+	<select name="disaster" class="select" onchange="this.form.submit()>
 		<option value="0" selected="selected">Choose a natural disaster</option>
 		<option value="1">Flood</option>
 		<option value="2">Earthquake</option>
