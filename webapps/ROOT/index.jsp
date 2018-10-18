@@ -89,7 +89,7 @@
 		String dis = request.getParameter("disaster");
 		if(Integer.parseInt(dis)<9){
 	%>
-			<iframe width="100%" height="80%" src="<%dis%>.html" style="border: 0 !important;"/>
+			<iframe width="100%" height="80%" src="<%=dis%>.html" style="border: 0 !important;"/>
 	<%
 		}else{
 	%>
