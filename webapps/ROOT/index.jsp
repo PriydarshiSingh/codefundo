@@ -70,7 +70,7 @@
 		</style>
 	</head>
 	<div align="center">
-	<form action="index.jsp">
+	<form action="index.jsp" method="POST">
 	<select name="disaster" class="select" onchange="this.form.submit()">
 		<option value="0">Choose a natural disaster</option>
 		<option value="1">Flood</option>
